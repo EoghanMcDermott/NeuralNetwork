@@ -29,7 +29,7 @@ public class MLP
         w2 = new double [numHiddenUnits][numOutputs];
 
         z1 = new double[numHiddenUnits];
-        z2 = new double[numHiddenUnits];
+        z2 = new double[numOutputs];
 
         hidden = new double[numHiddenUnits];
         outputs = new double[numOutputs];
@@ -44,31 +44,34 @@ public class MLP
 
     private double[][] randomise(double[][] input)//method to fill 2d array with small random values
     {
+        Random rand = new Random();
+
         double[][] result = new double[input.length][input[0].length];
 
         for(int i=0;i<input.length;i++)
         {
             for(int j=0;j<input[0].length;j++)
-                result[i][j] = generateInitialWeight();
+                result[i][j] = rand.nextDouble();
+                //result[i][j] = generateInitialWeight();
         }
 
         return result;
     }
 
-    private double generateInitialWeight()//method to generate small initial weights
-    {
-        Random rand = new Random();
-//
-//        int numerator = rand.nextInt(10);
-//
-//        double initialWeight = numerator/1000.0;
-//
-//        if(initialWeight == 0)
-//            initialWeight += 0.05;
-//
-//        return initialWeight;
-        return rand.nextDouble();
-    }
+//    private double generateInitialWeight()//method to generate small initial weights
+//    {
+//        Random rand = new Random();
+////
+////        int numerator = rand.nextInt(10);
+////
+////        double initialWeight = numerator/1000.0;
+////
+////        if(initialWeight == 0)
+////            initialWeight += 0.05;
+////
+////        return initialWeight;
+//        return rand.nextDouble();
+//    }
 
     public void forwardPass(double[] input)
     {
@@ -79,6 +82,12 @@ public class MLP
 
     public void backProp(double target)
     {
+        //need to compute deltas for upper layer
+        //multiply deltas by hidden values
+        //this gives dW2 values
+
+        //compute deltas for lower layer
+        //multiply deltas by input values
 
     }
 
@@ -110,18 +119,10 @@ public class MLP
                 hidden[i] += input[j] * w1[j][i];
         }
 
-        System.out.println("\nHidden before activation:");
         printHidden();
 
         for(int i=0;i<numHiddenUnits;i++)
-        {
-            hidden[i] = sigmoid(hidden[i]);//applying activation function
-            z1[i] = hidden[i];
-        }
-
-        System.out.println("\nHidden after activation:");
-        printHidden();
-        System.out.println("\n\n");
+            z1[i] = sigmoid(hidden[i]);//applying activation function
     }
 
     private void calculateOutput()
@@ -129,19 +130,14 @@ public class MLP
         for(int i=0;i<numOutputs;i++)
         {
             for(int j=0;j<numInputs;j++)
-                outputs[i] += hidden[j] * w2[j][i];
+                outputs[i] += z1[j] * w2[j][i];
         }
 
-        printOutput();
+        for(int i=0;i<numOutputs;i++)
+            z2[i] = sigmoid(outputs[i]);//applying activation function
 
-        for(int i=0;i<numOutputs;i++)//applying activation function
-        {
-            outputs[i] = sigmoid(outputs[i]);
-            z2[i] = outputs[i];
-        }
-
-        System.out.println("Result after activation: ");
         printOutput();
+        printZ2();
     }
 
     private void printHidden()
@@ -154,6 +150,12 @@ public class MLP
     {
         for(double o : outputs)
             System.out.println("Output: " + o);
+    }
+
+    private void printZ2()
+    {
+        for(double z : z2)
+            System.out.println("Output after activation: " + z);
     }
 
     private void printWeights()
