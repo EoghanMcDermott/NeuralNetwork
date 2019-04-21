@@ -86,8 +86,23 @@ public class MLP
         //multiply deltas by hidden values
         //this gives dW2 values
 
+
+
+        double error = calculateError(target);
+
+        double deltaOutput = error * sigmoidDerivative(outputs[0]);//know there's only one output - hack?
+
+        for(int i=0;i<numHiddenUnits;i++)
+        {
+            for(int j=0;j<numOutputs;j++)
+            {
+                dW2[i][j] *=  deltaOutput;
+            }
+        }
+
         //compute deltas for lower layer
         //multiply deltas by input values
+
 
     }
 
@@ -123,6 +138,8 @@ public class MLP
 
         for(int i=0;i<numHiddenUnits;i++)
             z1[i] = sigmoid(hidden[i]);//applying activation function
+
+        printZ1();
     }
 
     private void calculateOutput()
@@ -140,6 +157,24 @@ public class MLP
         printZ2();
     }
 
+    private double calculateError(double target)
+    {
+        double error = 0;
+
+        for(double y : outputs)
+            error += 0.5*Math.pow(target-y,2); // 1/2 *(target-y)^2
+
+        return error;
+    }
+
+
+
+
+
+
+
+
+
     private void printHidden()
     {
         for(double h : hidden)
@@ -150,6 +185,12 @@ public class MLP
     {
         for(double o : outputs)
             System.out.println("Output: " + o);
+    }
+
+    private void printZ1()
+    {
+        for(double z : z1)
+            System.out.println("Z1: " + z);
     }
 
     private void printZ2()

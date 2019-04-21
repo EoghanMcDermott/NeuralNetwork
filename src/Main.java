@@ -6,5 +6,6 @@ public class Main {
 
        double[] input = {0,1};
        nn.forwardPass(input);
+       nn.backProp(1);
     }
 }
