@@ -86,8 +86,6 @@ public class MLP
         //multiply deltas by hidden values
         //this gives dW2 values
 
-
-
         double error = calculateError(target);
 
         double deltaOutput = error * sigmoidDerivative(outputs[0]);//know there's only one output - hack?
@@ -96,7 +94,8 @@ public class MLP
         {
             for(int j=0;j<numOutputs;j++)
             {
-                dW2[i][j] *=  deltaOutput;
+                double dw2Update = deltaOutput * hidden[i];
+                dW2[i][j] +=  dw2Update;
             }
         }
 
