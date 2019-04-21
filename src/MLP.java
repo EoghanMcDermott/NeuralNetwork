@@ -72,6 +72,7 @@ public class MLP
 
     public void forwardPass(double[] input)
     {
+        printWeights();
         calculateHidden(input);
         calculateOutput();
     }
@@ -102,11 +103,6 @@ public class MLP
 
     private void calculateHidden(double[] input)
     {
-        System.out.println("w1 values:");
-        for(double[] row : w1)
-            for(double w : row)
-                System.out.println(w);
-
         //using matrix multiplication to calculate values in hidden units
         for(int i=0;i<numHiddenUnits;i++)
         {
@@ -114,32 +110,63 @@ public class MLP
                 hidden[i] += input[j] * w1[j][i];
         }
 
-        System.out.println("Hidden before activation:");
-        for(double h : hidden)
-            System.out.println("Hidden: " + h);
+        System.out.println("\nHidden before activation:");
+        printHidden();
 
         for(int i=0;i<numHiddenUnits;i++)
         {
             hidden[i] = sigmoid(hidden[i]);//applying activation function
             z1[i] = hidden[i];
         }
+
+        System.out.println("\nHidden after activation:");
+        printHidden();
+        System.out.println("\n\n");
     }
 
     private void calculateOutput()
     {
-       //w2 = new double[][]{{0.3},{0.5}};
-
         for(int i=0;i<numOutputs;i++)
         {
             for(int j=0;j<numInputs;j++)
                 outputs[i] += hidden[j] * w2[j][i];
         }
 
-        System.out.println("Output: " + outputs[0]);
-        for(double o: outputs)//applying activation function
-            o = sigmoid(o);
+        printOutput();
 
-        System.out.println("Result after activation: " + outputs[0]);
+        for(int i=0;i<numOutputs;i++)//applying activation function
+        {
+            outputs[i] = sigmoid(outputs[i]);
+            z2[i] = outputs[i];
+        }
 
+        System.out.println("Result after activation: ");
+        printOutput();
     }
+
+    private void printHidden()
+    {
+        for(double h : hidden)
+            System.out.println("Hidden: " + h);
+    }
+
+    private void printOutput()
+    {
+        for(double o : outputs)
+            System.out.println("Output: " + o);
+    }
+
+    private void printWeights()
+    {
+        System.out.println("w1:");
+        for(double[] row : w1)
+            for(double w : row)
+                System.out.println(w);
+
+        System.out.println("w2:");
+        for(double[] column : w2)
+            for(double w : column)
+                System.out.println(w);
+    }
+
 }
