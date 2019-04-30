@@ -107,8 +107,18 @@ public class MLP
 
     public void updateWeights(double learningRate)
     {
-        //W1 += learningRate*dW1;
-       // W2 += learningRate*dW2;
+        for(int i=0;i<numInputs;i++)
+        {
+            for(int j=0;j<numHiddenUnits;j++)
+                w1[i][j] += dW1[i][j]*learningRate;
+        }
+
+        for(int i=0;i<numHiddenUnits;i++)
+        {
+            for(int j=0;j<numOutputs;j++)
+                w2[i][j] += dW2[i][j]*learningRate;
+        }
+
 
         Arrays.fill(dW1,0);
         Arrays.fill(dW2,0);
