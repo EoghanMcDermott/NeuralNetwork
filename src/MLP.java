@@ -6,6 +6,7 @@ public class MLP
     private int numInputs;
     private int numHiddenUnits;
     private int numOutputs;
+    private double error;
 
     private double[][] w1, w2;
     private double[][] dW1, dW2;
@@ -28,6 +29,9 @@ public class MLP
         w1 = new double [numInputs][numHiddenUnits];
         w2 = new double [numHiddenUnits][numOutputs];
 
+        dW1 = new double [numInputs][numHiddenUnits];
+        dW2 = new double [numHiddenUnits][numOutputs];
+
         z1 = new double[numHiddenUnits];
         z2 = new double[numOutputs];
 
@@ -37,9 +41,22 @@ public class MLP
 
         w1 = randomise(w1);
         w2 = randomise(w2);
-        Arrays.fill(hidden,0);
-        Arrays.fill(outputs, 0);
+        Arrays.fill(z1,0);
+        Arrays.fill(z2, 0);
+        Arrays.fill(hidden,0.0);
+        Arrays.fill(outputs, 0.0);
         //fill weight arrays with small random initial weights
+    }
+
+    private double[][] fill2Dzeroes(double[][] input)
+    {
+        double[][] result = new double[input.length][input[0].length];
+
+        for(double[] row : result)
+            for(double i : row)
+                i=0;
+
+        return result;
     }
 
     private double[][] randomise(double[][] input)//method to fill 2d array with small random values
@@ -52,41 +69,25 @@ public class MLP
         {
             for(int j=0;j<input[0].length;j++)
                 result[i][j] = rand.nextDouble();
-                //result[i][j] = generateInitialWeight();
         }
 
         return result;
     }
 
-//    private double generateInitialWeight()//method to generate small initial weights
-//    {
-//        Random rand = new Random();
-////
-////        int numerator = rand.nextInt(10);
-////
-////        double initialWeight = numerator/1000.0;
-////
-////        if(initialWeight == 0)
-////            initialWeight += 0.05;
-////
-////        return initialWeight;
-//        return rand.nextDouble();
-//    }
-
     public void forwardPass(double[] input)
     {
-        printWeights();
+//        printWeights();
         calculateHidden(input);
         calculateOutput();
     }
 
-    public void backProp(double target)
+    public double backProp(double target)
     {
         //need to compute deltas for upper layer
         //multiply deltas by hidden values
         //this gives dW2 values
 
-        double error = calculateError(target);
+        error = calculateError(target);
 
         double deltaOutput = error * sigmoidDerivative(outputs[0]);//know there's only one output - hack?
 
@@ -94,15 +95,24 @@ public class MLP
         {
             for(int j=0;j<numOutputs;j++)
             {
-                double dw2Update = deltaOutput * hidden[i];
+                double dw2Update = deltaOutput * z2[j];
                 dW2[i][j] +=  dw2Update;
+            }
+        }
+
+        for(int i=0;i<numInputs;i++)
+        {
+            for(int j=0;j<numHiddenUnits;j++)
+            {
+                double dw1Update = deltaOutput * z1[i];
+                dW1[i][j] +=  dw1Update;
             }
         }
 
         //compute deltas for lower layer
         //multiply deltas by input values
 
-
+        return error;
     }
 
     public void updateWeights(double learningRate)
@@ -120,8 +130,8 @@ public class MLP
         }
 
 
-        Arrays.fill(dW1,0);
-        Arrays.fill(dW2,0);
+       dW1 = fill2Dzeroes(dW1);
+       dW2 = fill2Dzeroes(dW2);
     }
 
     private double sigmoid(double x)//activation function
@@ -143,12 +153,12 @@ public class MLP
                 hidden[i] += input[j] * w1[j][i];
         }
 
-        printHidden();
+//        printHidden();
 
         for(int i=0;i<numHiddenUnits;i++)
             z1[i] = sigmoid(hidden[i]);//applying activation function
 
-        printZ1();
+//        printZ1();
     }
 
     private void calculateOutput()
@@ -163,7 +173,7 @@ public class MLP
             z2[i] = sigmoid(outputs[i]);//applying activation function
 
         printOutput();
-        printZ2();
+//        printZ2();
     }
 
     private double calculateError(double target)
@@ -220,5 +230,4 @@ public class MLP
             for(double w : column)
                 System.out.println(w);
     }
-
 }
