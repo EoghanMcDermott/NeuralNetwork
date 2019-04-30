@@ -6,7 +6,7 @@ public class MLP
     private int numInputs;
     private int numHiddenUnits;
     private int numOutputs;
-    private double error;
+    //private double error;
 
     private double[][] w1, w2;
     private double[][] dW1, dW2;
@@ -87,7 +87,7 @@ public class MLP
         //multiply deltas by hidden values
         //this gives dW2 values
 
-        error = calculateError(target);
+        double error = calculateError(target);
 
         double deltaOutput = error * sigmoidDerivative(outputs[0]);//know there's only one output - hack?
 
@@ -120,15 +120,14 @@ public class MLP
         for(int i=0;i<numInputs;i++)
         {
             for(int j=0;j<numHiddenUnits;j++)
-                w1[i][j] += dW1[i][j]*learningRate;
+                w1[i][j] +=(dW1[i][j]*-learningRate);
         }
 
         for(int i=0;i<numHiddenUnits;i++)
         {
             for(int j=0;j<numOutputs;j++)
-                w2[i][j] += dW2[i][j]*learningRate;
+                w2[i][j] += dW2[i][j]*-learningRate;
         }
-
 
        dW1 = fill2Dzeroes(dW1);
        dW2 = fill2Dzeroes(dW2);
@@ -150,15 +149,11 @@ public class MLP
         for(int i=0;i<numHiddenUnits;i++)
         {
             for(int j=0;j<numInputs;j++)
-                hidden[i] += input[j] * w1[j][i];
+            {
+                hidden[i] = sigmoid(input[j] * w1[j][i]);
+                z1[i] = hidden[i];
+            }
         }
-
-//        printHidden();
-
-        for(int i=0;i<numHiddenUnits;i++)
-            z1[i] = sigmoid(hidden[i]);//applying activation function
-
-//        printZ1();
     }
 
     private void calculateOutput()
@@ -166,14 +161,13 @@ public class MLP
         for(int i=0;i<numOutputs;i++)
         {
             for(int j=0;j<numInputs;j++)
-                outputs[i] += z1[j] * w2[j][i];
+            {
+                outputs[i] = sigmoid(z1[j] * w2[j][i]);
+                z2[i] = outputs[i];
+            }
         }
 
-        for(int i=0;i<numOutputs;i++)
-            z2[i] = sigmoid(outputs[i]);//applying activation function
-
         printOutput();
-//        printZ2();
     }
 
     private double calculateError(double target)
@@ -181,7 +175,7 @@ public class MLP
         double error = 0;
 
         for(double y : outputs)
-            error += 0.5*Math.pow(target-y,2); // 1/2 *(target-y)^2
+            error += Math.abs(y-target);
 
         return error;
     }
