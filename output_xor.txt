@@ -1,0 +1,1500 @@
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.6757782195457036
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.6347923655032104
+Total error at epoch 0: 4.064611140159972
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.618187812277815
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.5814807222498635
+Total error at epoch 1: 3.9416187230483906
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.5682690178837606
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.5351091245377617
+Total error at epoch 2: 3.8397448504628335
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.5244147379965587
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.4942609675112222
+Total error at epoch 3: 3.753913328227786
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.4854778336762005
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.4579151930831897
+Total error at epoch 4: 3.6806027186068655
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.4506108324488685
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.4253115651530628
+Total error at epoch 5: 3.617281590039668
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.419169565836887
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.395868545538702
+Total error at epoch 6: 3.5620760606741078
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.390652549359894
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.3691310342166076
+Total error at epoch 7: 3.513564601588211
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.3646613583279879
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.344735879844389
+Total error at epoch 8: 3.4706462463992382
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.3408738669289058
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.3223883965509278
+Total error at epoch 9: 3.4324530322437994
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.319025658138351
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.3018459371294147
+Total error at epoch 10: 3.398290107285486
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.2988967888989977
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.2829061281558582
+Total error at epoch 11: 3.3675937120369936
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.2803021626273725
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.2653982672114925
+Total error at epoch 12: 3.339901038517715
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.2630843909353513
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.2491769153348462
+Total error at epoch 13: 3.314828181279653
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.2471084101574723
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.2341170452895738
+Total error at epoch 14: 3.292053723922411
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.2322573588068857
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.2201103130559285
+Total error at epoch 15: 3.271306328372693
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.218429376758853
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.2070621538415311
+Total error at epoch 16: 3.252355217933909
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.2055350887312213
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.1948894925246827
+Total error at epoch 17: 3.2350027860228225
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.193495602990935
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.1835189182860728
+Total error at epoch 18: 3.2190787891589308
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1822409030019787
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.172885214338753
+Total error at epoch 19: 3.2044357363707197
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1717085423025697
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.162930162442034
+Total error at epoch 20: 3.190945193108565
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1618425759326072
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.153601562313773
+Total error at epoch 21: 3.1784947919786397
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1525926782546094
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.1448524207623445
+Total error at epoch 22: 3.1669857953911578
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1439134090200789
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.1366402760840832
+Total error at epoch 23: 3.1563310932561404
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1357635983680003
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.128926631185888
+Total error at epoch 24: 3.146453546621273
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.128105828015323
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.1216764747971602
+Total error at epoch 25: 3.137284608642438
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1209059908410244
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.114857874585766
+Total error at epoch 26: 3.128763169573571
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1141329148168115
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.1084416293793917
+Total error at epoch 27: 3.1208345839929112
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1077580401113372
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.1024009702938027
+Total error at epoch 28: 3.1134498472566774
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.1017551404150292
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0967113025825206
+Total error at epoch 29: 3.106564894906566
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0961000812616417
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0913499815930767
+Total error at epoch 30: 3.1001400039708513
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.090770609479226
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.086296117449599
+Total error at epoch 31: 3.0941392791656517
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0857461689751775
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.081530404058689
+Total error at epoch 32: 3.0885302101986354
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0810077389127446
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.077034968814139
+Total error at epoch 33: 3.0832832889061144
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0765376910190558
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.072793240000274
+Total error at epoch 34: 3.0783716769684073
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0723196633145633
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0687898293971827
+Total error at epoch 35: 3.073770916562395
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0683384479992164
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0650104279994834
+Total error at epoch 36: 3.069458677611292
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0645798915935096
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.061441713093332
+Total error at epoch 37: 3.0654145363463683
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0610308057296602
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0580712652094288
+Total error at epoch 38: 3.0616197807549463
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.05767888723272
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.054887493694751
+Total error at epoch 39: 3.0580572391929994
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0545126463336842
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0518795698319814
+Total error at epoch 40: 3.0547111290201077
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0515213420247365
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0490373665905242
+Total error at epoch 41: 3.051566922593606
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.048694923707083
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0463514042224162
+Total error at epoch 42: 3.0486112283565303
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.046023978399456
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0438128010250416
+Total error at epoch 43: 3.0458316850857283
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.043499682874429
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0414132286840558
+Total error at epoch 44: 3.043216867644163
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0411137601734233
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0391448716873444
+Total error at epoch 45: 3.040756202814853
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0388584400223684
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0370003903665743
+Total error at epoch 46: 3.0384398939907
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0367264227305448
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0349728871789614
+Total error at epoch 47: 3.036258853661069
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0347108462069308
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0330558758898174
+Total error at epoch 48: 3.034204642777439
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0328052557728344
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0312432533576374
+Total error at epoch 49: 3.0322694162009824
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0310035764878738
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0295292736589507
+Total error at epoch 50: 3.030445873537883
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0293000877394505
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0279085243208432
+Total error at epoch 51: 3.0287272147564965
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0276893998745422
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0263759044556418
+Total error at epoch 52: 3.0271071000562744
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0261664326775704
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0249266046153902
+Total error at epoch 53: 3.0255796135237514
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0247263955198467
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0235560882039203
+Total error at epoch 54: 3.0241392301673575
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0233647690251173
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0222600743019734
+Total error at epoch 55: 3.0227807859717366
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0220772881123967
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0210345217763086
+Total error at epoch 56: 3.0214994506546864
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.020859926291941
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0198756145573447
+Total error at epoch 57: 3.020290702846814
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0197088811031294
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0187797479818808
+Total error at epoch 58: 3.0191503074461807
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0186205605944292
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0177435161080375
+Total error at epoch 59: 3.0180742949284007
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0175915707557133
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0167636999189442
+Total error at epoch 60: 3.017058942417257
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0166187038221652
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0158372563400204
+Total error at epoch 61: 3.016100756342575
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.015698927376954
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0149613080020945
+Total error at epoch 62: 3.0151964565310547
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0148293741869554
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0141331336891908
+Total error at epoch 63: 3.0143429615925172
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0140073327121044
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0133501594156864
+Total error at epoch 64: 3.0135373754787524
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0132302382346166
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0126099500827888
+Total error at epoch 65: 3.0127769751052065
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0124956645593488
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.011910201668968
+Total error at epoch 66: 3.012059198937256
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0118013162411035
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0112487339131935
+Total error at epoch 67: 3.01138163645303
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0111450212987187
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0106234834535792
+Total error at epoch 68: 3.010742018403798
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0105247243794375
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.010032497387435
+Total error at epoch 69: 3.0101382078009813
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0099384803403073
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0094739272217552
+Total error at epoch 70: 3.009568191565994
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0093844482163132
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0089460231859195
+Total error at epoch 71: 3.0090300727855035
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0088608855475893
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0084471288808332
+Total error at epoch 72: 3.008522063520342
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0083661430404431
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0079756762409684
+Total error at epoch 73: 3.0080424781214052
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.007898659539084
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0075301807877584
+Total error at epoch 74: 3.0075897270103638
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0074569572868866
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0071092371546135
+Total error at epoch 75: 3.007162310887063
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0070396374577815
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0067115148654593
+Total error at epoch 76: 3.0067588153291225
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.006645375939953
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0063357543501745
+Total error at epoch 77: 3.0063779057524593
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0062729193554614
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0059807631816464
+Total error at epoch 78: 3.006018322704384
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00592108130071
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0056454125203682
+Total error at epoch 79: 3.0056788774635157
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00558873879386
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0053286337536058
+Total error at epoch 80: 3.005358447923099
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0052748289163638
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0050294153171575
+Total error at epoch 81: 3.0050559747364223
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0049783456367642
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0047467996886268
+Total error at epoch 82: 3.0047704577049084
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0046983368057862
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.004479880541966
+Total error at epoch 83: 3.0045009523911714
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.004433901312559
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0042278000537765
+Total error at epoch 84: 3.0042465669408487
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.004184186392529
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0039897463525538
+Total error at epoch 85: 3.0040064590984166
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0039483850783022
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0037649511026652
+Total error at epoch 86: 3.003779833403431
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0037257337852545
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0035526872154337
+Total error at epoch 87: 3.003565938554778
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.003515510024311
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0033522666802044
+Total error at epoch 88: 3.0033640649315174
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.003317030234801
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0031630385087527
+Total error at epoch 89: 3.0031735422598462
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0031296477307632
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0029843867868222
+Total error at epoch 90: 3.002993737416528
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0029527507545042
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0028157288269814
+Total error at epoch 91: 3.0028240523599043
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0027857606316
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0026565134173506
+Total error at epoch 92: 3.0026639221802673
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0026281300219022
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0025062191610894
+Total error at epoch 93: 3.002512813262037
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0024793412614315
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0023643529018447
+Total error at epoch 94: 3.002370221550712
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.002338904790358
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.002230448230643
+Total error at epoch 95: 3.002235670918107
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.002206357662543
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0021040640699768
+Total error at epoch 96: 3.0021087116198495
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.002081262132388
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0019847833310815
+Total error at epoch 97: 3.001988918839549
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0019632043149709
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0018722116406202
+Total error at epoch 98: 3.001875891314425
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0018517929156845
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0017659761332132
+Total error at epoch 99: 3.001769250037566
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0017466580257954
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0016657243064364
+Total error at epoch 100: 3.0016686370322985
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0016474499805428
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0015711229351043
+Total error at epoch 101: 3.0015737141944623
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0015538382765745
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0014818570418178
+Total error at epoch 102: 3.001484162198659
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0014655105456924
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0013976289209183
+Total error at epoch 103: 3.0013996794647984
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00138217158204
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0013181572131424
+Total error at epoch 104: 3.001319981181503
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0013035424200079
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0012431760284095
+Total error at epoch 105: 3.0012447983831487
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0012293594602872
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0011724341143045
+Total error at epoch 106: 3.001173877077522
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0011593736416153
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0011056940679457
+Total error at epoch 107: 3.001106977421252
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0010933496559027
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.001042731589047
+Total error at epoch 108: 3.0010438729403655
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0010310652045311
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0009833347720831
+Total error at epoch 109: 3.0009843497934483
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000972310293735
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0009273034355854
+Total error at epoch 110: 3.00092820607507
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0009168865670754
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0008744484866832
+Total error at epoch 111: 3.00087525115725
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0008646066731226
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000824591319105
+Total error at epoch 112: 3.0008253050668765
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0008152936665506
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0007775632429392
+Total error at epoch 113: 3.000778197897119
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000768780440939
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0007332049445385
+Total error at epoch 114: 3.0007337692509672
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0007249091916641
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0006913659750343
+Total error at epoch 115: 3.000691867715158
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0006835309073348
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0006519042659976
+Total error at epoch 116: 3.000652350362834
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0006445048883144
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0006146856708615
+Total error at epoch 117: 3.000615082283374
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0006076982909329
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0005795835307814
+Total error at epoch 118: 3.000579936137922
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000572985696068
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000546478263679
+Total error at epoch 119: 3.0005467917392297
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0005402487008364
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0005152569752789
+Total error at epoch 120: 3.0005155356544835
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000509375532203
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0004858130909975
+Total error at epoch 121: 3.0004860608298936
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0004802606813672
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0004580460076105
+Total error at epoch 122: 3.000458266235844
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0004528045578502
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.00043186076367
+Total error at epoch 123: 3.0004320565315132
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0004269131622572
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0004071677276987
+Total error at epoch 124: 3.000407341747902
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0004024977767347
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0003838823032316
+Total error at epoch 125: 3.0003840369882733
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000379474672205
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.00036192464983
+Total error at epoch 126: 3.0003620621450695
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0003577648314885
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0003412194192243
+Total error at epoch 127: 3.0003413416324074
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000337293687485
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000321695505797
+Total error at epoch 128: 3.000321804133312
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0003179908756168
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0003032858106478
+Total error at epoch 129: 3.000303382360888
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00029978999978
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000285927018525
+Total error at epoch 130: 3.000286012832677
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0002826284110913
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0002695593869415
+Total error at epoch 131: 3.0002696356574825
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000266446998743
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0002541265468303
+Total error at epoch 132: 3.000254194333983
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0002511899923343
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000239575314125
+Total error at epoch 133: 3.000239635560497
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000236804775052
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000225855511684
+Total error at epoch 134: 3.000225909055291
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0002232417071337
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0002129198010037
+Total error at epoch 135: 3.0002129673868545
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000210453959052
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0002007235232004
+Total error at epoch 136: 3.0002007658136014
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001983973539041
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0001892245487587
+Total error at epoch 137: 3.000189262132478
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001870302185087
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0001783831355788
+Total error at epoch 138: 3.0001784165360013
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001763132427404
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0001681617948743
+Total error at epoch 139: 3.0001681914772487
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001662093466566
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0001585251644942
+Total error at epoch 140: 3.0001585515423814
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000156683554996
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000149439889271
+Total error at epoch 141: 3.0001494633302794
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001477028786447
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.00014087450801
+Total error at epoch 142: 3.0001408953388937
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000139236202698
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000132799346764
+Total error at epoch 143: 3.000132817857957
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001312541807494
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0001251864180432
+Total error at epoch 144: 3.000125202867693
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001237291350762
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0001180093256457
+Total error at epoch 145: 3.0001180239431955
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001166349623911
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0001112431747943
+Total error at epoch 146: 3.0001112561641734
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001099470448611
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0001048644872934
+Total error at epoch 147: 3.00010487602975
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0001036421661014
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000098851121427
+Total error at epoch 148: 3.0000988613780484
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000976984318706
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000093182196342
+Total error at epoch 149: 3.0000931913102944
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000920951952117
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000878380206646
+Total error at epoch 150: 3.000087846119186
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000086812985789
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000828000251227
+Total error at epoch 151: 3.000082807221292
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000818334431933
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000780506989455
+Total error at epoch 152: 3.0000780570932575
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000771392539944
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000735735298403
+Total error at epoch 153: 3.0000735792116044
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000727140923316
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000693529473397
+Total error at epoch 154: 3.0000693579959252
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000685425638505
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000653742693404
+Total error at epoch 155: 3.0000653787552793
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000646101527948
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000616236516506
+Total error at epoch 156: 3.0000616276376233
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000609031720826
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000580880403804
+Total error at epoch 157: 3.0000580915820887
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000057408716198
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000547551270194
+Total error at epoch 158: 3.000054758273962
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000541146167408
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000516133060477
+Total error at epoch 159: 3.00005161610221
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00005100940049
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000486516349436
+Total error at epoch 160: 3.000048654119414
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000048082249835
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000458597964483
+Total error at epoch 161: 3.0000458620039603
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000453229654467
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000432280629679
+Total error at epoch 162: 3.000043230024386
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000427219310606
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000407472629884
+Total error at epoch 163: 3.0000407490057395
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000040270080254
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000384087493923
+Total error at epoch 164: 3.000038410297848
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000379588651076
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000362043695714
+Total error at epoch 165: 3.0000362057453875
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000035780226641
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000034126437233
+Total error at epoch 166: 3.000034127659652
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000337265669275
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000321677058055
+Total error at epoch 167: 3.0000321687919267
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000317907227905
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000303213433535
+Total error at epoch 168: 3.0000303223083704
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000029965940994
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000028580908916
+Total error at epoch 169: 3.000028581766329
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000028245854842
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000269403301911
+Total error at epoch 170: 3.000026941091996
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000266244621083
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000253938824863
+Total error at epoch 171: 3.000025394559342
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000250961042212
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000239361688674
+Total error at epoch 172: 3.0000239367702446
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000236554466317
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000022562101435
+Total error at epoch 173: 3.000022562635749
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000222974602997
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000212668836683
+Total error at epoch 174: 3.000021267358397
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000210174042337
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000200459937725
+Total error at epoch 175: 3.000020046415559
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000198108090244
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000018895168975
+Total error at epoch 176: 3.000018895543723
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000186734613183
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000178103907156
+Total error at epoch 177: 3.0000178107236697
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000017601389173
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000016787870683
+Total error at epoch 178: 3.0000167881665036
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000016590848251
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000158240376436
+Total error at epoch 179: 3.0000158243004718
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000156383087975
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000149155250242
+Total error at epoch 180: 3.000014915758539
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000147404433635
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000014059159203
+Total error at epoch 181: 3.000014059366673
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000138941152283
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000132519484661
+Total error at epoch 182: 3.0000132521327965
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000013096367483
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000124910725976
+Total error at epoch 183: 3.000012491236369
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000123444127367
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000117738730618
+Total error at epoch 184: 3.0000117740185663
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000011635623412
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000110978437466
+Total error at epoch 185: 3.0000110979730215
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000010967522594
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000010460622236
+Total error at epoch 186: 3.0000104607370917
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000103377754006
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000098599815814
+Total error at epoch 187: 3.0000098600836256
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000097441808493
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000092938225418
+Total error at epoch 188: 3.000009293913204
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000009184664186
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000008760166269
+Total error at epoch 189: 3.0000087602468186
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000086572696536
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000082571474105
+Total error at epoch 190: 3.000008257218975
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000081601536743
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000077830076066
+Total error at epoch 191: 3.0000077830711884
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000076915784208
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000073360893598
+Total error at epoch 192: 3.000007336145849
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000007249905757
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000006914830254
+Total error at epoch 193: 3.000006914880442
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000006833591523
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000006517757506
+Total error at epoch 194: 3.0000065178020954
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00000644118015
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000061434828271
+Total error at epoch 195: 3.0000061435224428
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000060712995802
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.00000579069758
+Total error at epoch 196: 3.0000057907327764
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000057226564805
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000054581682127
+Total error at epoch 197: 3.000005458199483
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000053940317284
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000051447319531
+Total error at epoch 198: 3.000005144759735
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000050842761572
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000048492927505
+Total error at epoch 199: 3.000004849317433
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000047923065438
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000045708174505
+Total error at epoch 200: 3.00000457083938
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000004517101828
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000043083321877
+Total error at epoch 201: 3.0000043083516705
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000042576995463
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000040609189846
+Total error at epoch 202: 3.000004060936294
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000040131924726
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000003827712548
+Total error at epoch 203: 3.0000038277279266
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000037827254482
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000036078972452
+Total error at epoch 204: 3.0000036079109083
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000035654923969
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000034007042569
+Total error at epoch 205: 3.0000034007163956
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000033607335073
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000032054088908
+Total error at epoch 206: 3.0000032054196755
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000031677325807
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000030213280509
+Total error at epoch 207: 3.0000030213376325
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000029858145278
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000028478178506
+Total error at epoch 208: 3.000002847826363
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000028143430104
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000002684271363
+Total error at epoch 209: 3.0000026842789262
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000002652718218
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000025301165005
+Total error at epoch 210: 3.00000253012322
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000025003747717
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000023848140163
+Total error at epoch 211: 3.000002384819986
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000002356779749
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000022478556188
+Total error at epoch 212: 3.0000022478609223
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000022214308204
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000021187621961
+Total error at epoch 213: 3.000002118766908
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000002093854495
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000001997082141
+Total error at epoch 214: 3.0000019970863274
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000019736044639
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000018823897734
+Total error at epoch 215: 3.0000018823934926
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000018602600416
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000017742838512
+Total error at epoch 216: 3.0000017742871554
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000017534246948
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000001672386168
+Total error at epoch 217: 3.0000016723891036
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000016527246562
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000015763402321
+Total error at epoch 218: 3.0000015763428403
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000001557807618
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000014858100188
+Total error at epoch 219: 3.000001485812336
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000014683415002
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000014004787958
+Total error at epoch 220: 3.0000014004808544
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000013840132886
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000001320048017
+Total error at epoch 221: 3.0000013200498463
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000013045279423
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000012442362767
+Total error at epoch 222: 3.0000012442379016
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00000122960736
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000011727783273
+Total error at epoch 223: 3.000001172779771
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000011589894082
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000011054241513
+Total error at epoch 224: 3.000001105425434
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000001092427006
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000010419380867
+Total error at epoch 225: 3.0000010419392265
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000010296872583
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000982098003
+Total error at epoch 226: 3.0000009820990154
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000970550644
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000009256945244
+Total error at epoch 227: 3.000000925695424
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000009148102467
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000008725302978
+Total error at epoch 228: 3.0000008725310967
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000008622710312
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000008224193024
+Total error at epoch 229: 3.000000822420012
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000008127491617
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000775186199
+Total error at epoch 230: 3.00000077518683
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000007660713592
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000007306657168
+Total error at epoch 231: 3.0000007306662773
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000007220742941
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000006887020751
+Total error at epoch 232: 3.000000688702573
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000006806040163
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000006491484392
+Total error at epoch 233: 3.0000006491488818
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000006415154161
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000611866406
+Total error at epoch 234: 3.000000611866799
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000006046717167
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.00000057672552
+Total error at epoch 235: 3.0000005767258693
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000005699439953
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000005436028172
+Total error at epoch 236: 3.0000005436031274
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000005372107332
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000512382395
+Total error at epoch 237: 3.0000005123826705
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000005063573894
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000004829550062
+Total error at epoch 238: 3.000000482955251
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000004772760007
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000004552176778
+Total error at epoch 239: 3.000000455217895
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000004498648043
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000004290733497
+Total error at epoch 240: 3.000000429073543
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000004240278808
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000004044305357
+Total error at epoch 241: 3.000000404430707
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000003996748192
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000003812030038
+Total error at epoch 242: 3.000000381203156
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000376720401
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000003593094735
+Total error at epoch 243: 3.000000359309609
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000355084301
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000003386733327
+Total error at epoch 244: 3.0000003386734533
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000003346908077
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000003192223683
+Total error at epoch 245: 3.000000319222475
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000003154685568
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000300888515
+Total error at epoch 246: 3.00000030088861
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000002973502826
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000002836076158
+Total error at epoch 247: 3.0000002836077004
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000280272583
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000002673191983
+Total error at epoch 248: 3.0000002673192734
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000264175696
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000002519662634
+Total error at epoch 249: 3.0000002519663305
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000002490032924
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000002374950847
+Total error at epoch 250: 3.000000237495144
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000002347022778
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000002238550219
+Total error at epoch 251: 3.0000002238550745
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000221222607
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000002109983426
+Total error at epoch 252: 3.0000002109983894
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000002085171085
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001988800558
+Total error at epoch 253: 3.0000001988800973
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001965413208
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001874577542
+Total error at epoch 254: 3.0000001874577906
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001852533347
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001766914663
+Total error at epoch 255: 3.000000176691499
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001746136489
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001665435159
+Total error at epoch 256: 3.0000001665435447
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001645850298
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001569783905
+Total error at epoch 257: 3.000000156978416
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001551323827
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001479626173
+Total error at epoch 258: 3.0000001479626404
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001462226282
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000139464646
+Total error at epoch 259: 3.0000001394646665
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000137824587
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001314547378
+Total error at epoch 260: 3.0000001314547555
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001299088699
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001239048621
+Total error at epoch 261: 3.0000001239048784
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001224477761
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001167885986
+Total error at epoch 262: 3.000000116788613
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001154151954
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001100810432
+Total error at epoch 263: 3.000000110081056
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001087865173
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000001037587232
+Total error at epoch 264: 3.000000103758734
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000001025385443
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000977995134
+Total error at epoch 265: 3.0000000977995236
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000096649412
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000921825596
+Total error at epoch 266: 3.0000000921825687
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000091098511
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000868882049
+Total error at epoch 267: 3.0000000868882126
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000858664155
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000818979216
+Total error at epoch 268: 3.0000000818979284
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000080934816
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000771942463
+Total error at epoch 269: 3.0000000771942523
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000076286454
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000072760718
+Total error at epoch 270: 3.0000000727607237
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000719050623
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000685818216
+Total error at epoch 271: 3.0000000685818264
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000677753083
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000646429326
+Total error at epoch 272: 3.000000064642937
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000638827395
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000609302668
+Total error at epoch 273: 3.000000060930271
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000602137336
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000574308316
+Total error at epoch 274: 3.000000057430835
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000567554508
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000541323806
+Total error at epoch 275: 3.000000054132384
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000534957887
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000510233706
+Total error at epoch 276: 3.000000051023373
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00000005042334
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000480929212
+Total error at epoch 277: 3.0000000480929234
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000047527352
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000453307774
+Total error at epoch 278: 3.0000000453307796
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000447976904
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000427272728
+Total error at epoch 279: 3.0000000427272746
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000422248025
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000402732963
+Total error at epoch 280: 3.000000040273298
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000397996842
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000379602598
+Total error at epoch 281: 3.0000000379602616
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000375138487
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000035780069
+Total error at epoch 282: 3.0000000357800705
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000353592966
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000337250938
+Total error at epoch 283: 3.0000000337250947
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000333284877
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000031788143
+Total error at epoch 284: 3.000000031788144
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000314143151
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000029962438
+Total error at epoch 285: 3.0000000299624388
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000296100802
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000282415895
+Total error at epoch 286: 3.0000000282415904
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000279094687
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000026619575
+Total error at epoch 287: 3.000000026619576
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000026306529
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000250907186
+Total error at epoch 288: 3.0000000250907193
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000247956518
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000236496698
+Total error at epoch 289: 3.0000000236496707
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000233715496
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000222913854
+Total error at epoch 290: 3.000000022291386
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000220292384
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000021011112
+Total error at epoch 291: 3.000000021011113
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000020764021
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000019804369
+Total error at epoch 292: 3.0000000198043693
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000195714693
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000186669336
+Total error at epoch 293: 3.0000000186669338
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.00000001844741
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000175948252
+Total error at epoch 294: 3.000000017594825
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000173879096
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000165842915
+Total error at epoch 295: 3.0000000165842917
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000163892597
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000156317965
+Total error at epoch 296: 3.0000000156317967
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.000000015447966
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000147340065
+Total error at epoch 297: 3.0000000147340065
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000145607342
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.0000000138877798
+Total error at epoch 298: 3.00000001388778
+Expected: 0.0 Predicted: 2.0
+Expected: 1.0 Predicted: 1.0000000137244591
+Expected: 1.0 Predicted: 2.0
+Expected: 0.0 Predicted: 1.000000013090155
+Total error at epoch 299: 3.000000013090155

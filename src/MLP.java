@@ -131,11 +131,12 @@ public class MLP
         {
             for(int j=0;j<numHiddenUnits;j++)
             {
-                double hiddenError = deltaOutput * sigmoidDerivative(hidden[j]);
-                double deltaHidden = hiddenError * w2[j][0];
+                double hiddenError = deltaOutput * w2[j][0];
+                double deltaHidden = hiddenError * sigmoidDerivative(z1[j]);
                 dW1[i][j] +=  deltaHidden * inputValues[i]; //multiply deltas by input values to get dW1 values
             }
         }
+
 
         return calculateTotalError(target);//return total error for a given example input
     }
