@@ -86,8 +86,8 @@ public class MLP
         {
             for(int j=0;j<numInputs;j++)
             {
-                hidden[i] = sigmoid(input[j] * w1[j][i]);
-                z1[i] = hidden[i];
+                z1[i] = (input[j] * w1[j][i]);
+                hidden[i] = sigmoid(z1[i]);
             }
         }
     }
@@ -98,8 +98,8 @@ public class MLP
         {
             for(int j=0;j<numInputs;j++)
             {
-                outputs[i] = sigmoid(z1[j] * w2[j][i]);
-                z2[i] = outputs[i];
+                z2[i] =z1[j] * w2[j][i];
+                outputs[i] = sigmoid(z2[i]);
             }
         }
 
@@ -124,12 +124,13 @@ public class MLP
             //multiply deltas by hidden values
             //this gives dW2 values
         }
-        double deltaHidden = 0;
+
         for(int i=0;i<numInputs;i++)
         {
             for(int j=0;j<numHiddenUnits;j++)
             {
-                deltaHidden += deltaOutput * w1[i][j] * sigmoidDerivative(z1[j]);
+                double hiddenError = deltaOutput * w2[j][0];
+                double deltaHidden = hiddenError * sigmoidDerivative(hidden[j]);
                 dW1[i][j] +=  deltaHidden * inputValues[i];
             }
         }
@@ -174,8 +175,8 @@ public class MLP
         double error = 0;
 
         for(double y : outputs)
-            error += Math.abs(y-target);
-//            error+= 0.5*(Math.pow((y-target),2));
+//            error += Math.abs(y-target);
+            error+= 0.5*(Math.pow((target-y),2));
 
         return error;
     }
