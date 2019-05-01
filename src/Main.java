@@ -12,7 +12,7 @@ public class Main {
             MLP nn = new MLP(2,2,1);
 
             double[][] input =  {{0,0}, {0,1}, {1,0}, {1,1}};
-            double[] output = {0, 1, 1, 0};
+            double[][] output = {{0}, {1}, {1}, {0}};
 
             int maxEpochs = 300;
             double learningRate = 0.1;
@@ -26,7 +26,7 @@ public class Main {
                     nn.forwardPass(input[i]);
                     double thisError = nn.backProp(output[i]);
                     totalError += thisError;
-                    fw.write("Expected: " + output[i] + " Predicted: " + nn.getOutput()[0]+ "\n");
+                    fw.write("Expected: " + output[i][0] + " Predicted: " + nn.getOutput()[0]+ "\n");
                 }
 
                 nn.updateWeights(learningRate);

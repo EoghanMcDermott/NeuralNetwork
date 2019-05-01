@@ -107,19 +107,16 @@ public class MLP
         }
     }
 
-    public double backProp(double target)
+    public double backProp(double[] target)
     {
-        double error = calculateError(target);
+              //need to compute deltas for upper layer
         double deltaOutput = 0;
-
-        for(int i=0;i<numOutputs;i++)
-            deltaOutput += error * sigmoidDerivative(z2[i]);
-        //need to compute deltas for upper layer
 
         for(int i=0;i<numHiddenUnits;i++)
         {
             for(int j=0;j<numOutputs;j++)
             {
+                deltaOutput = calculateError(target[j], outputs[j]) * sigmoidDerivative(z2[j]);
                 dW2[i][j] += deltaOutput * hidden[j];
             }
             //multiply deltas by hidden values
@@ -138,7 +135,17 @@ public class MLP
         //compute deltas for lower layer
         //multiply deltas by input values
 
-        return error;
+        return calculateTotalError(target);
+    }
+
+    private double calculateTotalError(double[] target)
+    {
+        double totalError = 0;
+
+        for(int i=0;i<numOutputs;i++)
+            totalError += calculateError(target[i], outputs[i]);
+
+        return totalError;
     }
 
     public void updateWeights(double learningRate)
@@ -172,14 +179,9 @@ public class MLP
 
 
 
-    private double calculateError(double target)//calculate error from target value
+    private double calculateError(double target, double actual)//calculate error from target value
     {
-        double error = 0;
-
-        for(double y : outputs)
-            error+= 0.5*(Math.pow((target-y),2));
-
-        return error;//mean squared error
+        return  0.5*(Math.pow((target-actual),2));//mean squared error
     }
 
 
