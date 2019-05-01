@@ -1,0 +1,26 @@
+Name: Eoghan McDermott
+Student Number: 15345451
+
+Before getting into the tests it needs to be noted that there is a problem with backpropagation in the network I created.
+(Also if the output looks funny try opening it in notepad++ or an in IDE editor - I tried opening it with normal notepad and it looked awful.)
+
+Q.1&2
+With the XOR gate network as training progressed the error did decrease, but once it got to an error of 3 it stopped and I'm not sure why.
+Sometimes also, when training, the error would initially decrease but then randomly increase exponentially to infinity.
+This backpropagation error kind of breaks everything but I can't figure out where it's coming from - possibly a calculus error with the deltas?
+
+The XOR test ran for 10,000 epochs with a learning rate of 0.1.
+The error seems to converge at around 400 epochs with a total error of 3, probably due to my backpropagation error.
+The learning rate was decided upon after testing a number of different values.
+
+Q.3&4
+Training ran for 10,000 epochs with a learning rate of 0.1, same as the XOR training.
+For the vector with 4 inputs question, when training the network, the error was very large at first and then decreases after the first epoch.
+In the following epoch however, the error increases to infinity and doesn't decrease for the rest of training.
+
+As the training went very poorly, when trying to predict the test set values the network always predicts infinity
+These errors all stem from my backpropagation method I think but can't figure out the exact problem.
+The error in the test set is the same as the error in the training set - but only because they're both infinity :-(
+
+
+Seeing as to how my network doesn't work for XOR and the sin vector inputs, I didn't try it with the handwritten digits
